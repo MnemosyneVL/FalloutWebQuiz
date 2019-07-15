@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: Chicago;
+    src: url(../font/chicago.ttf);
+}
+* {
+	font-family: Chicago;
+	text-shadow: rgb(110, 187, 103) 0 0 5px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+html {
+	
+	background: #000000 url(../images/monitor.jpg) no-repeat;
+	background-size: cover;
+}
+#quiz {
+	margin-left: 10%; 
+    width: 80%;
+    height: 100%;
+	margin-top: 12%;
+}
+
+.question {
+	height: 200px;
+	min-width: 200px;
+	width: auto;
+	padding: 10px 0 0 0;
+
+	font-size: 25px;
+	line-height: 30px;
+	color: rgb(110, 187, 103);
+	text-align: center;
+	letter-spacing: 1px;
+	word-wrap: normal;
+}
+.answers  {
+	text-align: center;
+	width: 100%;
+}
+.answer {
+	height: 100%;
+	width: 46%;
+    background: rgba(110, 187, 103, 0);
+    border-radius: 3px;
+	color: rgb(110, 187, 103);
+	text-align: center;
+	word-wrap: normal;
+	padding: 30px 10px;
+
+}
+.continue {
+	float: right;
+	height: 75px;
+	width: 100px;
+	background: rgba(110, 187, 103, 0);
+    border-radius: 3px;
+	color: rgb(110, 187, 103);
+	text-align: center;
+}
+.continue:hover {
+	border: 3px solid rgb(110, 187, 103);
+	border-radius: 2px;
+}
+button {
+	outline: none;
+	border: 3px solid rgba(101, 189, 93, 0);
+}
+.answer:hover {
+	border: 3px solid rgb(110, 187, 103);
+	border-radius: 2px;
+}
+h1 {
+	color: rgb(110, 187, 103);
+	float: left;
+}
